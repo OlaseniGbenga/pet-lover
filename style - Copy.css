@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.assist {
+  background-color: #65c178;
+  padding: 0.5rem 4rem;
+}
+
+.assist-links {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0rem 0.4rem;
+  color: #ffffff;
+}
+
+.top-info {
+  background-color: #ffffff;
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-info1 {
+  /* display: inline-block;
+  vertical-align: middle; */
+}
+
+.top-info1 h1 {
+  /* vertical-align: middle; */
+}
+
+.top-info2 {
+  /* display: inline-block;
+  float: right;
+  vertical-align: middle; */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 1rem;
+}
+
+.top-info2 div {
+  /* display: inline-block;
+  padding: 0 0.5rem;
+  text-align: center; */
+}
+
+.top-info2 p {
+  color: #a5a5a5;
+}
+
+.pet {
+  color: #ed6436;
+}
+
+/*Navbar Start*/
+.nav {
+  /* position: relative; */
+  padding: 0 4rem;
+  background-color: #000000;
+  display: flex;
+  /* width: 100vw;
+  flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navs {
+  /* display: inline-block; */
+  display: flex;
+}
+
+.nav-btn {
+  /* display: inline-block;
+  position: absolute;
+  bottom: 18%;
+  right: 5%; */
+}
+
+.navs a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem 2rem;
+}
+
+.navs-link {
+  /* padding: 2rem 2rem; */
+  display: inline-block;
+}
+
+.navs-links {
+  display: inline-block;
+}
+
+.nav-btn .btn {
+  background-color: #ed6436;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.navs-link:hover,
+.navs-link:active,
+.navs-link:focus {
+  color: #000;
+  background-color: #ed6436;
+}
+
+/* Carousel Start */
+.carousel {
+  background: url("./images/carousel-1.jpg");
+  background-color: #65c178;
+  height: 800px;
+  padding: 1rem 4rem;
+  color: #ffffff;
+}
+
+.carousel1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Carousel End */
+
+/* booking Start */
+.booking {
+  padding: 0 4rem;
+  background-color: #f2f2f4;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.booking-1 {
+  background-color: #ed6436;
+}
+
+.form-element {
+  display: grid;
+}
+
+.booking-2 {
+}
+/* Booking End */
+
+ /*
+  Creating nav hamburger menu with Gideon Cyber */
+
+  .bar {
+    display: inline-block;
+    font-size: 2rem;
+  }
+  .safty span {
+    color: #e84a15;
+  }
+
+  .fa-bars {
+    color: #ffffff;
+  }
+
+  .navbar {
+  }
+
+  .navbar-lists,
+  .btn-container,
+  .navbar .btn {
+    flex-direction: column;
+    display: none;
+  }
+}
